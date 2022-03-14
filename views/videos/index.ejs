@@ -1,0 +1,71 @@
+<html>
+    <%- include("../layout/1.head.ejs") %>
+
+    <body class="app sidebar-mini ltr">
+        <%- include("../layout/2.header.ejs") %>
+        <%- include("../layout/3.sidebar.ejs") %>
+        <div class="main-content app-content mt-0">
+            <div class="side-app"> <div class="row">
+                <div class="col-md-12 col-xl-12" style="padding-top: 120px;">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">Shipping Details</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-row">
+                                <div class="form-group col-md-6 mb-0">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name1" placeholder="First Name">
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6 mb-0">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name2" placeholder="Last Name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <input type="email" class="form-control" id="inputEmail5" placeholder="Email Address">
+                            </div>
+                            <div class="form-group ">
+                                <input type="text" class="form-control" id="address" placeholder="AddressLine1">
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6 mb-0">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="country" placeholder="Country">
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6 mb-0">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="region" placeholder="Country/Region">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6 mb-0">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="city" placeholder="City">
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6 mb-0">
+                                    <div class="form-group">
+                                        <input type="number" class="form-control" id="postal" placeholder="Zip/Postal">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-footer mt-2">
+                                <a href="javascript:void(0)" class="btn btn-primary">Confirm  Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div> 
+            </div></div>
+        </div>  
+        
+        <%- include("../layout/4.footer.ejs") %>
+
+    </body>
+
+</html>
